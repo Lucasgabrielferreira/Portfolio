@@ -13,14 +13,6 @@ body{
     overflow: hidden;
 }
 
-.background{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/background.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-   
-}
 
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images3.alphacoders.com/131/1318505.jpeg);
@@ -39,6 +31,17 @@ header{
     text-align: center;
     padding-top: 1rem;
     
+}
+
+button{
+    color: #ffff00;
+    background: transparent;
+    border:solid 1px #ffff00;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 150px;
 }
 
 .cabeçalho-link{
@@ -70,4 +73,12 @@ header{
     justify-content: center;
     font-size: 13px;
     cursor: pointer;
+}
+
+article{
+    color: white;
+    line-height: 200%;
+    text-align: center; 
+    font-size: 18px;
+    margin-top: 25px;
 }
