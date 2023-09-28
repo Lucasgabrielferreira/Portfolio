@@ -16,7 +16,7 @@ body{
 
 
 .background{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./img/background.jpg);
+    background-image: url(https://i.redd.it/jn2ear0ah9n91.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -80,7 +80,7 @@ button{
 
 button:hover{
     background-color: #ffff00;
-    color: #000000;
+    color: black;
     transition: 0.5s;
 }
 
@@ -103,7 +103,7 @@ button:hover{
 }
 
 .text p{
-    color: #fff;
+    color: white;
     font-weight: 500;
     margin-top: 10px;
     font-size: 18px;
