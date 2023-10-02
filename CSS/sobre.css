@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins" , sans-serif;
+    font-family: "Poppins" , sans-serif, serif;
     text-decoration: none;
     list-style: none;
 }
@@ -22,6 +22,10 @@ body{
     height: 100vh;
    
 }
+.container-text{
+    padding: 10px 0 0 100px;
+}
+
 
 header{
     display: flex;
@@ -53,7 +57,7 @@ button{
 
 .cabeçalho-link a{
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .cabeçalho-link a:hover{
@@ -61,24 +65,10 @@ button{
     transition: 0.3s all;
 }
 
-.logo i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid #ffff00;
-    color: #ffff00;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
-}
-
 article{
     color: white;
     line-height: 200%;
-    text-align: center; 
-    font-size: 18px;
-    margin-top: 25px;
+    font-size: 15px;
+    margin: 50px;
+    padding: 10px;
 }

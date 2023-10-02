@@ -16,7 +16,7 @@ body{
 
 
 .background{
-    background-image: url(https://i.redd.it/jn2ear0ah9n91.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.redd.it/jn2ear0ah9n91.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -30,9 +30,7 @@ header{
     max-width: 100%;
     align-items: center;
     text-align: center;
-    padding-top: 1rem;
-   
-    
+    padding-top: 1rem;     
 }
 
 .cabeçalho-link{
@@ -44,28 +42,13 @@ header{
 
 .cabeçalho-link a{
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .cabeçalho-link a:hover{
     color:  #ffff00;
     transition: 0.3s all;
 }
-
-.logo i{
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid #ffff00;
-    color: #ffff00;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    cursor: pointer;
-}
-
 
 button{
     color: #ffff00;
@@ -121,6 +104,9 @@ button:hover{
 
 .btn{
     margin-top: 15px;
+}
+footer{
+    color: white;
 }
 
 @media screen and (max-width:600px){
