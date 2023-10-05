@@ -13,8 +13,6 @@ body{
     overflow: hidden;
 }
 
-
-
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.redd.it/jn2ear0ah9n91.jpg);
     background-size: cover;
@@ -113,5 +111,11 @@ footer{
     .cabeçalho-link {
         display: none;
     }
-    
+}
+
+
+@media screen and (max-width: 390px) {
+    .container-text{ 
+        padding: 100px 0 0 50px;
+    }
 }

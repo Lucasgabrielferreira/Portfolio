@@ -67,3 +67,15 @@ main{
     padding-top: 70px;
     
 } 
+
+@media screen and (max-width:600px){
+    .cabeçalho-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-text{ 
+        padding: 100px 0 0 50px;
+    }
+}
