@@ -17,7 +17,7 @@ body{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.redd.it/jn2ear0ah9n91.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
    
 }
