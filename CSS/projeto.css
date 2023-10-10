@@ -19,7 +19,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 100wh;
-    height: 100em;
+    height: 100;
    
 }
 
@@ -31,6 +31,10 @@ header{
     text-align: center;
     padding-top: 1rem;
     
+}
+.container-text{
+    padding: 80px 0 0 100px;
+
 }
 
 button{
@@ -72,6 +76,9 @@ main{
     .cabeçalho-link {
         display: none;
     }
+    header{
+        justify-content: start;
+     }
 }
 
 @media screen and (max-width: 390px) {

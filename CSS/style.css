@@ -16,7 +16,7 @@ body{
 .background{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://i.redd.it/jn2ear0ah9n91.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center; 
     width: 100vw;
     height: 100vh;
    
@@ -67,12 +67,12 @@ button:hover{
 }
 
 .container-text{
-    padding: 150px 0 0 130px;
+    padding: 80px 100px;
 }
 
 .text h3{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .text h1{
@@ -113,8 +113,8 @@ footer{
         display: none;
     }
 
-    .header{
-        justify-content: start;
+    header{
+       justify-content: start;
     }
 }
 
