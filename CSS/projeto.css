@@ -78,8 +78,6 @@ main{
     }
     .menu{
         display: inline-table;
-        width: 39px;
-        height: 39px;
     }
 }
 
