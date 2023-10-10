@@ -76,9 +76,11 @@ main{
     .cabeçalho-link {
         display: none;
     }
-    header{
-        justify-content: start;
-     }
+    .menu{
+        display: inline-table;
+        width: 39px;
+        height: 39px;
+    }
 }
 
 @media screen and (max-width: 390px) {
