@@ -14,7 +14,7 @@ body{
 }
 
 .background{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images5.alphacoders.com/128/1282153.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images8.alphacoders.com/131/1318507.jpeg);
     background-size: cover;
     background-position: center; 
     width: 100vw;
@@ -65,47 +65,27 @@ button:hover{
     transition: 0.5s;
 }
 
-.container-text{
-    padding: 80px 100px;
-}
-
-.text h3{
+section{
+    padding: 80px 100px; 
     color: #fff;
     font-size: 20px;
 }
 
-.text h1{
+section>h1{
     color: #fff;
+    font-size: 25px;
+}
+
+section p{
+    color: #ffff00;
     margin-top: 10px;
-}
-
-.text span{
-    color: #ffff00; 
-}
-
-.text p{
-    color: white;
     font-weight: 500;
-    margin-top: 10px;
     font-size: 18px;
 }
 
-.redes-social{
-    margin-top: 10px;
-}
-
-.redes-social a{
-    color: #ffff00;
-    padding: 10px;
-    margin-top: 5px;
-}
-
-.btn{
-    margin-top: 15px;
-}
-
-footer{
-    color: white;
+section a{
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width:600px){

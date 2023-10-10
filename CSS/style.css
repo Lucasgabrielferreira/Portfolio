@@ -104,9 +104,10 @@ button:hover{
     margin-top: 15px;
 }
 
-footer{
+/* footer{
+    margin-top: 50px;
     color: white;
-}
+} */
 
 @media screen and (max-width:600px){
     .cabeçalho-link {
