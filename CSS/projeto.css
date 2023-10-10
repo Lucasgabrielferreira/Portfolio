@@ -48,11 +48,17 @@ button{
     width: 150px;
 }
 
+button:hover{
+    background-color: #ffff00;
+    color: black;
+    transition: 0.5s;
+}
+
 .cabeçalho-link{
     display: flex;
     gap: 3rem;
     font-weight: 300;
-    cursor: pointer;  
+    cursor: pointer; 
 }
 
 .cabeçalho-link a{
