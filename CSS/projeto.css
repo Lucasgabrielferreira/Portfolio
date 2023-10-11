@@ -35,7 +35,13 @@ header{
 .container-text{
     padding: 80px 0 0 100px;
 
+
+
 }
+.container-text h1{
+    margin-bottom: 45px;
+}
+
 
 button{
     color: #ffff00;
