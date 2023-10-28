@@ -32,11 +32,19 @@ header{
     padding-top: 1rem;
     
 }
-.container-text{
+.container-text.div{
     padding: 80px 0 0 100px;
+   
+}
 
-
-
+div.box {
+	width: 150px;
+	display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5vw 0vw vw 0vw;
+    min-width: 250px;
+    font-size: 18px;    
 }
 .container-text h1{
     margin-bottom: 45px;
