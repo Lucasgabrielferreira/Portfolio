@@ -1,112 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins" , sans-serif;
-    text-decoration: none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
-body{
-    overflow: Auto;
+body {
+  overflow: Auto;
 }
 
-
-.background{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://images.unsplash.com/photo-1678203699291-253ab7a4d6d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&w=1000&q=80);
-    background-size: cover;
-    background-position: center;
-    width: 100wh;
-    height: 100vh;
-   
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1678203699291-253ab7a4d6d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&w=1000&q=80);
+  background-size: cover;
+  background-position: center;
+  width: 100wh;
+  height: 100vh;
 }
 
-header{
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
-    text-align: center;
-    padding-top: 1rem;
-    
+header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
 }
-.container-text.div{
-    padding: 80px 0 0 100px;
-   
+.container-text.div {
+  padding: 80px 0 0 100px;
 }
 
 div.box {
-	width: 150px;
-	display: inline-block;
-    text-decoration: none;
-    text-align: center;
-    padding: 5vw 0vw vw 0vw;
-    min-width: 250px;
-    font-size: 18px;    
+  width: 150px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 5vw 0vw vw 0vw;
+  min-width: 250px;
+  font-size: 18px;
 }
-.container-text h1{
-    margin-bottom: 45px;
+div.box a {
+  color: #fff;
+  text-decoration: none;
 }
-
-
-button{
-    color: #ffff00;
-    background: transparent;
-    border:solid 1px #ffff00;
-    padding: 5px;
-    border-radius: 15px;
-    font-size: 12px;
-    cursor: pointer;
-    width: 150px;
+.container-text h1 {
+  margin-bottom: 45px;
 }
 
-button:hover{
-    background-color: #ffff00;
-    color: black;
-    transition: 0.5s;
+button {
+  color: #ffff00;
+  background: transparent;
+  border: solid 1px #ffff00;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 150px;
 }
 
-.cabeçalho-link{
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer; 
+button:hover {
+  background-color: #ffff00;
+  color: black;
+  transition: 0.5s;
 }
 
-.cabeçalho-link a{
-    color: #fff;
-    font-size: 15px;
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+  font-weight: 300;
+  cursor: pointer;
 }
 
-.cabeçalho-link a:hover{
-    color:  #ffff00;
-    transition: 0.3s all;
+.cabeçalho-link a {
+  color: #fff;
+  font-size: 15px;
 }
 
-main{
-    color: white;
-    padding: 150px; /* 150px 0 0 130px; */
-    padding-top: 70px;
-    
-} 
+.cabeçalho-link a:hover {
+  color: #ffff00;
+  transition: 0.3s all;
+}
 
-@media screen and (max-width:600px){
-    .cabeçalho-link {
-        display: none;
-    }
-    .menu{
-        display: inline-table;
-    }
+main {
+  color: white;
+  padding: 150px; /* 150px 0 0 130px; */
+  padding-top: 70px;
+}
+
+@media screen and (max-width: 600px) {
+  .cabeçalho-link {
+    display: none;
+  }
+  .menu {
+    display: inline-table;
+  }
 }
 
 @media screen and (max-width: 390px) {
-    .container-text{ 
-        padding: 100px 0 0 50px;
-    }
-    .background{
-        width: 100wh;
-        height: 100em;
-    }
+  .container-text {
+    padding: 100px 0 0 50px;
+  }
+  .background {
+    width: 100wh;
+    height: 100em;
+  }
 }
